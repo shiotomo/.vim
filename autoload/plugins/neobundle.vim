@@ -26,6 +26,9 @@ NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'nobarudo/tender.vim'
 NeoBundle 'altercation/vim-colors-solarized'
+"NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'Yggdroot/indentLine'
+
 let g:lightline = {
       \ 'colorscheme': 'default',
       \ 'active': {
