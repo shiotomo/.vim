@@ -2,11 +2,11 @@ let NERDTreeShowHidden=1          "隠しファイルを表示する
 
 if has('vim_starting')
    " 初回起動時のみruntimepathにneobundleのパスを指定する
-   set runtimepath+=~/.Dotfiles/.vim/bundle/neobundle.vim/
+   set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
 " NeoBundleを初期化
-call neobundle#begin(expand('~/.Dotfiles/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 " インストールするプラグインをここに記述
 NeoBundle 'scrooloose/syntastic'
