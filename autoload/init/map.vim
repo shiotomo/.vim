@@ -15,4 +15,3 @@ noremap k gk
 noremap == gg=G
 
 vnoremap <C-j> <Esc>
-vnoremap jj <Esc>
