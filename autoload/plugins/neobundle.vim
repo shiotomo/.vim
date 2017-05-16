@@ -28,6 +28,9 @@ NeoBundle 'nobarudo/tender.vim'
 NeoBundle 'altercation/vim-colors-solarized'
 "NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'Yggdroot/indentLine'
+"NeoBundle 'severin-lemaignan/vim-minimap'
+NeoBundle 'mipmip/vim-minimap'
+"NeoBundle 'koron/minimap-vim'
 
 let g:lightline = {
       \ 'colorscheme': 'default',
