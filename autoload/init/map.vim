@@ -3,8 +3,9 @@ inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
-inoremap jj  <Esc>
-inoremap <C-j> <Esc>
+inoremap jj  <Esc> `^
+inoremap <C-j> <Esc> `^
+
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 nnoremap <silent><C-m> :Minimap<CR>
 nnoremap <silent>S :e ++enc=shift_jis<CR>
