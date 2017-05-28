@@ -32,6 +32,8 @@ NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'mipmip/vim-minimap'
 "NeoBundle 'koron/minimap-vim'
 
+
+
 let g:lightline = {
       \ 'colorscheme': 'default',
       \ 'active': {
