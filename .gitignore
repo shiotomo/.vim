@@ -1,6 +1,6 @@
 bundle/
+/autoload/plug.vim
 help/
 .netrwhist
 *.swp
 plugged
-/autoload/plug.vim
