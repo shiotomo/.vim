@@ -3,4 +3,4 @@ help/
 .netrwhist
 *.swp
 plugged
-autoload/plug.vim
+/autoload/plug.vim
