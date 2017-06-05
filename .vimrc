@@ -31,5 +31,7 @@ Plug 'Yggdroot/indentLine'
 "Plug 'severin-lemaignan/vim-minimap'
 Plug 'mipmip/vim-minimap'
 "Plug 'koron/minimap-vim'
+Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/vimproc.vim'
 
 call plug#end()
