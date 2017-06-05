@@ -14,5 +14,6 @@ nnoremap <C-j><C-j> :noh<CR>
 nnoremap j gj
 nnoremap k gk
 nnoremap == gg=G
+nnoremap <silent><C-p> :VimShellPop<CR>
 
 vnoremap <C-j> <Esc>
