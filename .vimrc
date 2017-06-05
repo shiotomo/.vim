@@ -33,5 +33,6 @@ Plug 'mipmip/vim-minimap'
 "Plug 'koron/minimap-vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim'
+Plug 'Shougo/unite.vim'
 
 call plug#end()
