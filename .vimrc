@@ -7,6 +7,9 @@ augroup END
 
 let NERDTreeShowHidden=1
 
+runtime! /vimshell.vim
+
+" vim-plug
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/syntastic'
