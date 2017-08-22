@@ -6,8 +6,8 @@ set background=dark               "背景色が暗い用
 set backspace=indent,eol,start    "BackSpaceを表示する
 set laststatus=2                  "ステータス行を表示
 set relativenumber
+set relativenumber
 set cursorline
-set list
 set pastetoggle=<F12>
 set incsearch
 set hlsearch
