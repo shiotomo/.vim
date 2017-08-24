@@ -1,15 +1,3 @@
-runtime! /autoload/init/*.vim
-
-augroup vimrcEx
-  au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
-  \ exe "normal g`\"" | endif
-augroup END
-
-let NERDTreeShowHidden=1
-
-runtime! /vimshell.vim
-
-" vim-plug
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/syntastic'
@@ -39,3 +27,21 @@ Plug 'Shougo/vimproc.vim'
 Plug 'Shougo/unite.vim'
 
 call plug#end()
+
+source $HOME/.vim/autoload/init/completion.vim
+source $HOME/.vim/autoload/init/html.vim
+source $HOME/.vim/autoload/init/indent.vim
+source $HOME/.vim/autoload/init/map.vim
+source $HOME/.vim/autoload/init/ruby.vim
+source $HOME/.vim/autoload/init/set.vim
+source $HOME/.vim//vimshell.vim
+
+let NERDTreeShowHidden=1
+
+syntax on
+set t_Co=256
+
+augroup vimrcEx
+  au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
+  \ exe "normal g`\"" | endif
+augroup END
