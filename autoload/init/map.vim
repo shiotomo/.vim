@@ -3,6 +3,7 @@ inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
+inoremap | ||<LEFT>
 inoremap jj  <Esc> `^
 inoremap <C-j> <Esc> `^
 
