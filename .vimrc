@@ -25,6 +25,7 @@ Plug 'mipmip/vim-minimap'
 Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'Shougo/unite.vim'
+Plug 'kchmck/vim-coffee-script'
 
 call plug#end()
 
