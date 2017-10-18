@@ -5,7 +5,6 @@ set hidden
 set background=dark
 set laststatus=2
 set relativenumber
-set relativenumber
 set hidden
 set cursorline
 set pastetoggle=<F12>
