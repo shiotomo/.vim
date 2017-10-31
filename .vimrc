@@ -26,6 +26,9 @@ Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'Shougo/unite.vim'
 Plug 'kchmck/vim-coffee-script'
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+Plug 'elzr/vim-json'
 
 call plug#end()
 
@@ -38,6 +41,7 @@ source $HOME/.vim/autoload/init/set.vim
 source $HOME/.vim//vimshell.vim
 
 let NERDTreeShowHidden=1
+let g:vim_json_syntax_conceal = 0
 
 syntax on
 set t_Co=256
