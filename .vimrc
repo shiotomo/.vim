@@ -29,6 +29,8 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'elzr/vim-json'
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-rails'
 
 call plug#end()
 
