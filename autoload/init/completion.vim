@@ -1,6 +1,3 @@
-" とりあえずの設定
-" 書き換え予定
-
 highlight Pmenu ctermbg=4
 highlight PmenuSel ctermbg=1
 highlight PMenuSbar ctermbg=4
