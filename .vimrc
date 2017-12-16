@@ -26,6 +26,7 @@ Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'Shougo/unite.vim'
 Plug 'kchmck/vim-coffee-script'
+Plug 'fatih/vim-go'
 
 call plug#end()
 
