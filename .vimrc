@@ -32,6 +32,7 @@ Plug 'Shougo/neosnippet-snippets'
 Plug 'elzr/vim-json'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-rails'
+Plug 'chr4/nginx.vim'
 
 call plug#end()
 
