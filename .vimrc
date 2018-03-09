@@ -34,6 +34,7 @@ Plug 'elzr/vim-json'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-rails'
 Plug 'chr4/nginx.vim'
+Plug 'slim-template/vim-slim'
 
 call plug#end()
 
