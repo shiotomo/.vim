@@ -1,3 +1,6 @@
+set encoding=utf-8
+scriptencoding utf-8
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/syntastic'
@@ -47,13 +50,15 @@ source $HOME/.vim/autoload/init/ruby.vim
 source $HOME/.vim/autoload/init/set.vim
 source $HOME/.vim//vimshell.vim
 
-let NERDTreeShowHidden=1
+let g:NERDTreeShowHidden=1
 let g:vim_json_syntax_conceal = 0
-
-syntax on
-set t_Co=256
 
 augroup vimrcEx
   au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
   \ exe "normal g`\"" | endif
 augroup END
+
+" Syntax
+syntax on
+set t_Co=256
+

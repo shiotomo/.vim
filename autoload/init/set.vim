@@ -11,7 +11,6 @@ set pastetoggle=<F12>
 set incsearch
 set hlsearch
 set autoindent
-set encoding=utf-8
 set colorcolumn=80,100
 set noswapfile
 set backspace=indent,eol,start
