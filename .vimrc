@@ -42,12 +42,12 @@ Plug 'slim-template/vim-slim'
 
 call plug#end()
 
-source $HOME/.vim/autoload/init/completion.vim
-source $HOME/.vim/autoload/init/html.vim
-source $HOME/.vim/autoload/init/indent.vim
-source $HOME/.vim/autoload/init/map.vim
-source $HOME/.vim/autoload/init/ruby.vim
-source $HOME/.vim/autoload/init/set.vim
+source $HOME/.vim/conf.d/completion.vim
+source $HOME/.vim/conf.d/html.vim
+source $HOME/.vim/conf.d/indent.vim
+source $HOME/.vim/conf.d/map.vim
+source $HOME/.vim/conf.d/ruby.vim
+source $HOME/.vim/conf.d/set.vim
 source $HOME/.vim//vimshell.vim
 
 let g:NERDTreeShowHidden=1
@@ -61,4 +61,3 @@ augroup END
 " Syntax
 syntax on
 set t_Co=256
-
