@@ -33,6 +33,10 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-rails'
 Plug 'chr4/nginx.vim'
 Plug 'slim-template/vim-slim'
+Plug 'othree/yajs.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/es.next.syntax.vim'
 
 "Plug 'plasticboy/vim-markdown'
 "Plug 'koron/minimap-vim'
@@ -61,3 +65,11 @@ augroup END
 " Syntax
 syntax on
 set t_Co=256
+
+"try
+"  colorscheme molokai
+""  colorscheme tender
+"  let g:molokai_original = 1
+"catch
+"  colorscheme desert
+"endtry
