@@ -52,7 +52,7 @@ source $HOME/.vim/conf.d/indent.vim
 source $HOME/.vim/conf.d/map.vim
 source $HOME/.vim/conf.d/ruby.vim
 source $HOME/.vim/conf.d/set.vim
-source $HOME/.vim//vimshell.vim
+source $HOME/.vim/vimshell.vim
 
 let g:NERDTreeShowHidden=1
 let g:vim_json_syntax_conceal = 0
