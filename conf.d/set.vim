@@ -14,4 +14,6 @@ set autoindent
 set colorcolumn=80,100
 set noswapfile
 set backspace=indent,eol,start
+"set visualbell t_vb=
+set belloff=all
 "set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
