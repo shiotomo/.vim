@@ -57,6 +57,9 @@ source $HOME/.vim/vimshell.vim
 
 let g:NERDTreeShowHidden=1
 let g:vim_json_syntax_conceal = 0
+let g:lightline = {
+      \ 'colorscheme': 'landscape'
+      \ }
 
 augroup vimrcEx
   au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
