@@ -74,9 +74,12 @@ let g:lightline = {
 syntax on
 set t_Co=256
 
-colorscheme mirodark
-" colorscheme neodark
-" colorscheme tender
-" colorscheme desert
-" colorscheme molokai
-" let g:molokai_original = 1
+try
+  colorscheme mirodark
+  " colorscheme neodark
+  " colorscheme tender
+  " colorscheme desert
+  " colorscheme molokai
+  " let g:molokai_original = 1
+catch
+endtry
