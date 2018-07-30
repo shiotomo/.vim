@@ -1,21 +1,21 @@
-inoremap { {}<LEFT>
-inoremap [ []<LEFT>
-inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
-inoremap jj  <Esc> `^
+inoremap ( ()<LEFT>
 inoremap <C-j> <Esc> `^
+inoremap [ []<LEFT>
+inoremap jj  <Esc> `^
+inoremap { {}<LEFT>
 
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
 "nnoremap <silent><C-m> :Minimap<CR>
-nnoremap <silent>S :e ++enc=shift_jis<CR>
-nnoremap <silent>U :e ++enc=utf-8<CR>
 nnoremap <C-j><C-j> :noh<CR>
-nnoremap j gj
-nnoremap k gk
-nnoremap == gg=G
+nnoremap <silent> vp :VimShellPop<CR>
 nnoremap <silent> vs :sp<CR><C-w><C-w>:VimShell<CR>
 nnoremap <silent> vsc :VimShellCreate<CR>
-nnoremap <silent> vp :VimShellPop<CR>
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+nnoremap <silent>S :e ++enc=shift_jis<CR>
+nnoremap <silent>U :e ++enc=utf-8<CR>
+nnoremap == gg=G
+nnoremap j gj
+nnoremap k gk
 
 vnoremap <C-j> <Esc>
