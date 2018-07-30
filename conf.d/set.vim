@@ -1,5 +1,5 @@
-"set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
-"set visualbell t_vb=
+" set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
+" set visualbell t_vb=
 set ambiwidth=double
 set autoindent
 set background=dark

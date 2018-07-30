@@ -6,7 +6,7 @@ inoremap [ []<LEFT>
 inoremap jj  <Esc> `^
 inoremap { {}<LEFT>
 
-"nnoremap <silent><C-m> :Minimap<CR>
+" nnoremap <silent><C-m> :Minimap<CR>
 nnoremap <C-j><C-j> :noh<CR>
 nnoremap <silent> vp :VimShellPop<CR>
 nnoremap <silent> vs :sp<CR><C-w><C-w>:VimShell<CR>
