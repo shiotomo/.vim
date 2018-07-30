@@ -38,6 +38,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
+Plug 'thinca/vim-quickrun'
 
 " Plug 'KeitaNakamura/neodark.vim'
 " Plug 'jacoborus/tender.vim'
