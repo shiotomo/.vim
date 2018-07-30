@@ -22,6 +22,7 @@ Plug 'fatih/vim-go'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'itchyny/calendar.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'itchyny/vim-gitbranch'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'kannokanno/previm'
 Plug 'kchmck/vim-coffee-script'
@@ -34,11 +35,11 @@ Plug 'othree/yajs.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'slim-template/vim-slim'
+Plug 'thinca/vim-quickrun'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
-Plug 'thinca/vim-quickrun'
 
 " Plug 'KeitaNakamura/neodark.vim'
 " Plug 'jacoborus/tender.vim'
@@ -68,6 +69,13 @@ augroup END
 let g:NERDTreeShowHidden=1
 let g:vim_json_syntax_conceal = 0
 let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'gitbranch#name'
+      \ },
       \ 'colorscheme': 'wombat'
       \ }
 
