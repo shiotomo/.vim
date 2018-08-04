@@ -6,7 +6,7 @@ set background=dark
 set backspace=indent,eol,start
 set belloff=all
 set colorcolumn=80,100
-set cursorline
+" set cursorline
 set hidden
 set hidden
 set history=5000
@@ -17,8 +17,9 @@ set laststatus=2
 set noswapfile
 set number
 set pastetoggle=<F12>
-set relativenumber
+" set relativenumber
 set ruler
 set showmatch
 set smartcase
 set wildmenu
+set synmaxcol=150
