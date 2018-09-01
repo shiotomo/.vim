@@ -22,4 +22,3 @@ set ruler
 set showmatch
 set smartcase
 set wildmenu
-set synmaxcol=150
