@@ -41,6 +41,9 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'plasticboy/vim-markdown'
+Plug 'kannokanno/previm'
+Plug 'tyru/open-browser.vim'
 
 " Plug 'KeitaNakamura/neodark.vim'
 " Plug 'jacoborus/tender.vim'
@@ -54,6 +57,7 @@ Plug 'ConradIrwin/vim-bracketed-paste'
 
 call plug#end()
 
+source $HOME/.vim/conf.d/markdown.vim
 source $HOME/.vim/conf.d/completion.vim
 source $HOME/.vim/conf.d/html.vim
 source $HOME/.vim/conf.d/indent.vim
