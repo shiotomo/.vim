@@ -4,7 +4,7 @@
 
 bash
 ```
-./start.sh
+./installer.sh
 ```
 
 vim
