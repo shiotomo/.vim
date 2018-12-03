@@ -1,3 +1,4 @@
+set autoindent
 set tabstop=2                     "画面上でタブが占める幅
 set softtabstop=2                 "tabで挿入される空白の量
 set shiftwidth=2                  "自動でインデントでずれる幅

@@ -13,6 +13,7 @@ Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'Yggdroot/indentLine'
+Plug 'aklt/plantuml-syntax'
 Plug 'altercation/vim-colors-solarized'
 Plug 'basyura/unite-rails'
 Plug 'bronson/vim-trailing-whitespace'
@@ -24,7 +25,6 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'itchyny/calendar.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
-Plug 'jelera/vim-javascript-syntax'
 Plug 'kannokanno/previm'
 Plug 'kannokanno/previm'
 Plug 'kchmck/vim-coffee-script'
@@ -32,8 +32,8 @@ Plug 'mattn/emmet-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'othree/es.next.syntax.vim'
 Plug 'othree/html5.vim'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'othree/yajs.vim'
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'jelera/vim-javascript-syntax'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'slim-template/vim-slim'
@@ -42,8 +42,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
-Plug 'aklt/plantuml-syntax'
 
+" Plug 'othree/yajs.vim'
+" Plug 'othree/javascript-libraries-syntax.vim'
 " Plug 'KeitaNakamura/neodark.vim'
 " Plug 'jacoborus/tender.vim'
 " Plug 'koron/minimap-vim'
@@ -70,6 +71,9 @@ augroup vimrcEx
         \ exe "normal g`\"" | endif
 augroup END
 
+let g:jsx_ext_required = 0
+let g:vim_jsx_pretty_enable_jsx_highlight = 0
+let g:vim_jsx_pretty_colorful_config = 1
 let g:NERDTreeShowHidden=1
 let g:vim_json_syntax_conceal = 0
 let g:lightline = {
@@ -98,3 +102,4 @@ try
   " let g:molokai_original = 1
 catch
 endtry
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
