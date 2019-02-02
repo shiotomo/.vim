@@ -1,3 +1,20 @@
+"                                             ■■
+"                                             ■■
+"
+"
+"
+"                     ■■      ■■      ■■■■          ■■  ■■      ■■■  ■■          ■■■  ■
+"                     ■          ■            ■        ■    ■    ■        ■■    ■      ■      ■■
+"                     ■          ■            ■        ■    ■    ■        ■      ■    ■          ■
+"                       ■      ■              ■        ■    ■    ■        ■            ■
+"                       ■      ■              ■        ■    ■    ■        ■            ■
+"                       ■      ■              ■        ■    ■    ■        ■            ■
+"     ■                  ■  ■                ■        ■    ■    ■        ■            ■          ■
+"   ■■■                ■  ■                ■        ■    ■    ■        ■              ■        ■
+"   ■■■                  ■          ■■■■■■■■  ■■  ■■  ■■  ■■■■■■          ■■■■
+"     ■
+
+
 set encoding=utf-8
 scriptencoding utf-8
 
@@ -42,6 +59,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
+Plug 'derekwyatt/vim-scala'
+Plug 'leafgarland/typescript-vim'
 
 " Plug 'othree/yajs.vim'
 " Plug 'othree/javascript-libraries-syntax.vim'
