@@ -20,12 +20,23 @@ scriptencoding utf-8
 
 call plug#begin('~/.vim/plugged')
 
+" ******** deoplete.nvim *******
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
+
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
+" ******** deoplete.nvim *******
+
 Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'MaxMEllon/molokai'
 Plug 'MaxMEllon/vim-tmng'
-Plug 'Shougo/neocomplcache.vim'
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'Shougo/vimshell.vim'
@@ -42,7 +53,6 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'itchyny/calendar.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'itchyny/vim-gitbranch'
-Plug 'kannokanno/previm'
 Plug 'kannokanno/previm'
 Plug 'kchmck/vim-coffee-script'
 Plug 'mattn/emmet-vim'
@@ -61,6 +71,12 @@ Plug 'tpope/vim-surround'
 Plug 'tyru/open-browser.vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'leafgarland/typescript-vim'
+
+" ******** neocomplcache ********
+" Plug 'Shougo/neocomplcache.vim'
+" Plug 'Shougo/neosnippet'
+" Plug 'Shougo/neosnippet-snippets'
+" ******** neocomplcache ********
 
 " Plug 'othree/yajs.vim'
 " Plug 'othree/javascript-libraries-syntax.vim'
@@ -105,6 +121,7 @@ let g:lightline = {
       \ },
       \ 'colorscheme': 'wombat'
       \ }
+let g:loaded_syntastic_python_pylint_checker = 0
 
 " Syntax
 syntax on
