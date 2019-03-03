@@ -29,7 +29,6 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
-let g:deoplete#enable_at_startup = 1
 
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
@@ -94,7 +93,7 @@ Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 source $HOME/.vim/conf.d/markdown.vim
-source $HOME/.vim/conf.d/completion.vim
+source $HOME/.vim/conf.d/snnippet.vim
 source $HOME/.vim/conf.d/html.vim
 source $HOME/.vim/conf.d/indent.vim
 source $HOME/.vim/conf.d/map.vim
@@ -107,6 +106,8 @@ augroup vimrcEx
         \ exe "normal g`\"" | endif
 augroup END
 
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#auto_completion_start_length = 1
 let g:jsx_ext_required = 0
 let g:vim_jsx_pretty_enable_jsx_highlight = 0
 let g:vim_jsx_pretty_colorful_config = 1
