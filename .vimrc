@@ -72,6 +72,7 @@ Plug 'tyru/open-browser.vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'leafgarland/typescript-vim'
 Plug 'tpope/vim-endwise'
+Plug 'tomtom/tcomment_vim'
 
 " ******** neocomplcache ********
 " Plug 'Shougo/neocomplcache.vim'
