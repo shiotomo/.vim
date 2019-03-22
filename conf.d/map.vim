@@ -17,6 +17,7 @@ nnoremap <silent>U :e ++enc=utf-8<CR>
 nnoremap == gg=G
 nnoremap j gj
 nnoremap k gk
+nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
 vnoremap <C-j> <Esc>
 
