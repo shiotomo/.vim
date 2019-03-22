@@ -18,6 +18,7 @@ nnoremap == gg=G
 nnoremap j gj
 nnoremap k gk
 nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
+nnoremap <silent> <Space><Space> "zyiw:let @/ = '\<' . @z . '\>'<CR>:set hlsearch<CR>
 
 vnoremap <C-j> <Esc>
 
