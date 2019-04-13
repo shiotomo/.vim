@@ -73,6 +73,7 @@ Plug 'derekwyatt/vim-scala'
 Plug 'leafgarland/typescript-vim'
 Plug 'tpope/vim-endwise'
 Plug 'tomtom/tcomment_vim'
+Plug 'aonemd/kuroi.vim'
 
 " ******** neocomplcache ********
 " Plug 'Shougo/neocomplcache.vim'
@@ -139,7 +140,8 @@ syntax on
 set t_Co=256
 
 try
-  colorscheme mirodark
+  colorscheme kuroi
+  " colorscheme mirodark
   " colorscheme neodark
   " colorscheme tender
   " colorscheme desert
